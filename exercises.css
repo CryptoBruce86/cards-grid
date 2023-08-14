@@ -1,0 +1,54 @@
+* {
+  padding: 10px;
+  margin: 0px;
+}
+
+body {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 20px;
+}
+
+.container {
+  background-color: rgb(247, 247, 247);
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
+img {
+  width: 100%;
+  height: 300px;
+  display: block;
+  padding: 2px;
+  object-fit: cover;
+  cursor: pointer;
+  transition: 0.8s;
+}
+
+img:hover {
+  transform: scale(1.1);
+}
+
+.text-container {
+  font-family: Montserrat;
+}
+
+.bottom-box {
+  height: 60px;
+  width: 100%;
+  background-color: rgb(224, 224, 224);
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.text-btm {
+  font-family: Montserrat;
+  color: rgb(139, 139, 139);
+  cursor: pointer;
+}
